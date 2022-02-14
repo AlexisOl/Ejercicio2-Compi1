@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 %%
 %class CounterVocals
-%standalone
 
 %unicode
 %line
