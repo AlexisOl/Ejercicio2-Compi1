@@ -4,7 +4,7 @@
  */
 package Main;
 
-import com.mycompany.ejercicio2_alexisovalle.GUI_Main;
+import GUI.GUI_Main;
 
 /**
  *
