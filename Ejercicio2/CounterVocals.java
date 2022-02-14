@@ -222,10 +222,7 @@ public class CounterVocals {
   private int zzFinalHighSurrogate = 0;
 
   /* user code: */
-	/*Inicio de palabra*/
-	public void inicio() {
-		System.out.println("Inicio de palabra");
-	}
+	
 
 	/*Para deterctar la fila y columna de los numeros enteros*/
 
@@ -244,6 +241,9 @@ public class CounterVocals {
 
 	private int cantidadParcial = 0;
 	private int cantidadDeVocalesTotales =0;
+
+
+ /*Ingreso de cinco variables contadoras que determinaran la cantidad de palabras con esas caracteristicas*/
 
 
 	private int countVocals1 = 0;

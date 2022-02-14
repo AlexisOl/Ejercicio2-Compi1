@@ -12,13 +12,9 @@ Numeros = [0-9]
 Especial = [ , \n , \t, \r]+
 
 
- /*Ingreso de cinco variables contadoras que determinaran la cantidad de palabras con esas caracteristicas*/
 
 %{
-	/*Inicio de palabra*/
-	public void inicio() {
-		System.out.println("Inicio de palabra");
-	}
+	
 
 	/*Para deterctar la fila y columna de los numeros enteros*/
 
@@ -37,6 +33,9 @@ Especial = [ , \n , \t, \r]+
 
 	private int cantidadParcial = 0;
 	private int cantidadDeVocalesTotales =0;
+
+
+ /*Ingreso de cinco variables contadoras que determinaran la cantidad de palabras con esas caracteristicas*/
 
 
 	private int countVocals1 = 0;
@@ -158,7 +157,6 @@ Especial = [ , \n , \t, \r]+
 %%
 
 /*Reglas lexicas*/
-/*([a-zA-Z][0-9]) {inicio();}*/
 
 /*EN CASO DE TODAS LAS VOCALES*/
 (a|A|e|E|i|I|o|O|u|U) {increasecantidadDeVocalesTotales();}
